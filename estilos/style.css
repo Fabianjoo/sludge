@@ -15,6 +15,7 @@ html{
 
 header{
     background-color: rgba(0, 0, 0, 0.521);
+    
 }
 
 header > div#logo{
@@ -37,11 +38,11 @@ header > nav{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
+
 }
 
 header > nav > span{
-    
+    cursor: pointer;
 }
 
 header > nav > div#menu{
@@ -49,11 +50,23 @@ header > nav > div#menu{
     flex-flow: column nowrap;
     align-items: center;
     width: 100%;
+
+    
 }
 
 header > nav > div#menu > a{
     color: white;
     text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+
+    border-top: 1px solid white;
+}
+
+header > nav > div#menu > a:hover{
+    background-color: black;
+    font-weight: bold;
 }
 
 main{
@@ -74,4 +87,5 @@ footer{
     background-color: black;
     margin-top: 10px;
     text-align: center;
+    padding: 10px;
 }
