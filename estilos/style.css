@@ -126,10 +126,10 @@ section > div#conteiner > div.musicas > div#informacoes{
 
 section > div#conteiner > div.musicas > div#informacoes > p{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 section > div#conteiner > div.musicas > div#informacoes > div#youtube{
-    padding-top: 20px;
     text-align: center;
     color: purple;
 }
