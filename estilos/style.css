@@ -71,15 +71,76 @@ header > nav > div#menu > a:hover{
 
 main{
    background-color: white;
-   height: 100vh;
+   height: 2000px;
    width: 80%;
    margin: auto;
    padding: 5px;
    border-radius: 10px;
 }
 
+section#slogan{
+    padding-bottom: 20px;
+}
+
 section > img{
     width: 100%;
+    padding-bottom: 20px;
+}
+
+section > h1{
+    text-align: center;
+}
+
+section > div#conteiner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section > div#conteiner > div.musicas{
+    padding: 10px;
+
+}
+
+section > div#conteiner > div.musicas > h2{
+    font-size: 0.75em;
+    text-align: center;
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+section > div#conteiner > div.musicas > img{
+    width: 120px;
+    height: 120px;
+
+}
+
+section > div#conteiner > div.musicas > div#informacoes{
+    text-align: left;
+    width: 120px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+}
+
+section > div#conteiner > div.musicas > div#informacoes > p{
+    text-align: center;
+}
+
+section > div#conteiner > div.musicas > div#informacoes > div#youtube{
+    padding-top: 20px;
+    text-align: center;
+    color: purple;
+}
+
+div#informacoes > div#youtube > a{
+    text-decoration: none;
+}
+
+div#informacoes > div#youtube > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 footer{
