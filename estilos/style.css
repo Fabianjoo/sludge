@@ -99,6 +99,10 @@ main > button#btntopo{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.682);
 }
 
+main > button#btntopo:hover{
+    border: 2px solid white;
+}
+
 section#slogan{
     padding-bottom: 20px;
 }
