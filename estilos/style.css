@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -11,6 +13,9 @@ html{
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+      
 }
 
 header{
@@ -78,43 +83,69 @@ main{
    border-radius: 10px;
 }
 
+main > button#btntopo{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.682);
+}
+
 section#slogan{
     padding-bottom: 20px;
 }
 
-section > img{
+section#slogan > h1{
+    text-align: center;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.281), transparent);
+    font-family: "Metal Mania", system-ui;
+}
+
+section#imagem > img{
     width: 100%;
     padding-bottom: 20px;
 }
 
-section > h1{
+section#covers > h1{
     text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.281), transparent);
+    font-family: "Metal Mania", system-ui;
 }
 
-section > div#conteiner{
+section#covers > div#conteiner{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-section > div#conteiner > div.musicas{
+section#covers > div#conteiner > div.musicas{
     padding: 15px;
 }
 
-section > div#conteiner > div.musicas > h2{
+section#covers > div#conteiner > div.musicas > h2{
     font-size: 0.75em;
     text-align: center;
     width: 120px;
     padding-bottom: 5px;
+    font-family: "Metal Mania", system-ui;
 }
 
-section > div#conteiner > div.musicas > img{
+section#covers > div#conteiner > div.musicas > img{
     width: 120px;
     height: 120px;
 
 }
 
-section > div#conteiner > div.musicas > div#informacoes{
+section#covers > div#conteiner > div.musicas > div#informacoes{
     text-align: left;
     width: 120px;
     background-color: lightgray;
@@ -123,12 +154,12 @@ section > div#conteiner > div.musicas > div#informacoes{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
 }
 
-section > div#conteiner > div.musicas > div#informacoes > p{
+section#covers > div#conteiner > div.musicas > div#informacoes > p{
     text-align: center;
     padding-bottom: 20px;
 }
 
-section > div#conteiner > div.musicas > div#informacoes > div#youtube{
+section#covers > div#conteiner > div.musicas > div#informacoes > div#youtube{
     text-align: center;
     color: purple;
 }
@@ -140,6 +171,18 @@ div#informacoes > div#youtube > a{
 div#informacoes > div#youtube > a:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+section#video > h1{
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.281), transparent);
+    font-size: 1.5em;
+    margin: 15px 0px;
+    font-family: "Metal Mania", system-ui;
+}
+
+section#video > iframe{
+    width: 100%;
 }
 
 footer{
