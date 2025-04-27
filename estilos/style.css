@@ -9,10 +9,9 @@
 }
 
 html{
-    background-image: url(../imagens/fundo.jpg);
+    background: rgb(1, 48, 1) url(../imagens/fundo.jpg) left/cover no-repeat fixed;
     height: 100vh;
     width: 100vw;
-    background-size: cover;
     scroll-behavior: smooth;
     overflow-x: hidden;
       
