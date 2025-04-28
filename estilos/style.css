@@ -59,17 +59,25 @@ header > nav > div#menu{
     
 }
 
-header > nav > div#menu > a{
-    color: white;
-    text-decoration: none;
-    padding: 5px;
+header > nav > div#menu > ul{
     width: 100%;
     text-align: center;
-
-    border-top: 1px solid white;
+    
 }
 
-header > nav > div#menu > a:hover{
+header > nav > div#menu > ul > li{
+    list-style-type: none;
+    border-top: 1px solid white;
+    padding: 5px;
+}
+
+header > nav > div#menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+header > nav > div#menu > ul > li > a:hover{
     background-color: black;
     font-weight: bold;
 }
