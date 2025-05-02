@@ -6,6 +6,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 html{
@@ -38,7 +40,7 @@ header > div#logo > img{
 
 }
 
-header > nav{
+nav{
     color: white;
     display: flex;
     flex-flow: row wrap;
@@ -46,11 +48,11 @@ header > nav{
 
 }
 
-header > nav > span{
+nav > span{
     cursor: pointer;
 }
 
-header > nav > div#menu{
+nav > div#menu{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -59,25 +61,24 @@ header > nav > div#menu{
     
 }
 
-header > nav > div#menu > ul{
+div#menu > ul{
     width: 100%;
     text-align: center;
     
 }
 
-header > nav > div#menu > ul > li{
-    list-style-type: none;
+div#menu > ul > li{
     border-top: 1px solid white;
     padding: 5px;
 }
 
-header > nav > div#menu > ul > li > a{
+div#menu > ul > li > a{
     color: white;
-    text-decoration: none;
+    
     
 }
 
-header > nav > div#menu > ul > li > a:hover{
+div#menu > ul > li > a:hover{
     background-color: black;
     font-weight: bold;
 }
@@ -147,11 +148,11 @@ section#covers > div#conteiner{
     justify-content: center;
 }
 
-section#covers > div#conteiner > div.musicas{
+div#conteiner > div.musicas{
     padding: 15px;
 }
 
-section#covers > div#conteiner > div.musicas > h2{
+div.musicas > h2{
     font-size: 0.75em;
     text-align: center;
     width: 120px;
@@ -159,13 +160,13 @@ section#covers > div#conteiner > div.musicas > h2{
     font-family: "Metal Mania", system-ui;
 }
 
-section#covers > div#conteiner > div.musicas > img{
+div.musicas > img{
     width: 120px;
     height: 120px;
 
 }
 
-section#covers > div#conteiner > div.musicas > div#informacoes{
+div.musicas > div#informacoes{
     text-align: left;
     width: 120px;
     background-color: lightgray;
@@ -174,18 +175,14 @@ section#covers > div#conteiner > div.musicas > div#informacoes{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
 }
 
-section#covers > div#conteiner > div.musicas > div#informacoes > p{
+div#informacoes > p{
     text-align: center;
     padding-bottom: 20px;
 }
 
-section#covers > div#conteiner > div.musicas > div#informacoes > div#youtube{
+div#informacoes > div#youtube{
     text-align: center;
     color: purple;
-}
-
-div#informacoes > div#youtube > a{
-    text-decoration: none;
 }
 
 div#informacoes > div#youtube > a:hover{
